@@ -1,0 +1,6 @@
+<!-- res/drawable/rounded_black_button.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#000000" /> <!-- Warna hitam -->
+    <corners android:radius="90dp" /> <!-- Radius sudut untuk membuat bentuk bulat -->
+</shape>
