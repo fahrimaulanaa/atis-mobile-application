@@ -53,7 +53,7 @@
         tools:ignore="HardcodedText,RtlSymmetry" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button"
+        android:id="@+id/button_next"
         android:layout_width="match_parent"
         android:layout_height="65dp"
         android:layout_marginStart="26dp"

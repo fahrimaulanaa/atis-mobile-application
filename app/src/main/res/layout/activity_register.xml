@@ -24,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="220dp"
-        android:text="@string/sign_in_text"
+        android:text="@string/sign_up_text"
         android:fontFamily="@font/jakarta_semibold"
         android:textSize="26sp"
         android:textColor="@color/black_text"
@@ -116,7 +116,7 @@
 
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_login"
+        android:id="@+id/btn_signup"
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:layout_marginStart="48dp"
@@ -142,7 +142,7 @@
         android:layout_marginEnd="24dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_login"
+        app:layout_constraintTop_toBottomOf="@+id/btn_signup"
         app:srcCompat="@drawable/img_continue_with" />
 
     <ImageView
@@ -157,25 +157,14 @@
         app:srcCompat="@drawable/btn_login_google"
         tools:ignore="ContentDescription,HardcodedText" />
 
-    <TextView
-        android:id="@+id/tv_forgotpw"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="16dp"
-        android:fontFamily="@font/jakartasans_bold"
-        android:text="@string/forgot_password"
-        android:textColor="@color/black_text"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_login_google" />
 
     <TextView
-        android:id="@+id/tv_doesnthaveaccount"
+        android:id="@+id/tv_haveaccount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="48dp"
-        android:text="Register"
+        android:text="Already Have Account?"
         android:textColor="@color/black_text"
         android:fontFamily="@font/jakartasans_bold"
         app:layout_constraintEnd_toEndOf="parent"
